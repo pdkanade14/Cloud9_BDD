@@ -24,7 +24,7 @@ namespace Cloud9_BDD.TestScripts
         public void Setup()
         {
             this.driver = new ChromeDriver();
-            Cloud9_Main cm = new Cloud9_Main(this.driver);
+            Cloud9_Main cm = new Cloud9_Main(this.driver);   
             cm.Navigate();
             
         }
